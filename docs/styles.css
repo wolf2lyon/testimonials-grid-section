@@ -321,13 +321,25 @@ body {
   .testimonial-card:nth-child(2) {
     grid-area: cardTwo;
   }
+  .testimonial-card:nth-child(2) .testimonial-card__details {
+    width: 89.18%;
+  }
   .testimonial-card:nth-child(3) {
     grid-area: cardThree;
+  }
+  .testimonial-card:nth-child(3) .testimonial-card__quote {
+    width: 88%;
   }
   .testimonial-card:nth-child(4) {
     grid-area: cardFour;
   }
+  .testimonial-card:nth-child(4) .testimonial-card__quote {
+    width: 90.27%;
+  }
   .testimonial-card:nth-child(5) {
     grid-area: cardFive;
+  }
+  .testimonial-card:nth-child(5) .testimonial-card__details {
+    width: 92%;
   }
 }
