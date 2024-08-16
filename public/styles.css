@@ -1,0 +1,275 @@
+/*
+### Primary
+
+Moderate violet: hsl(263, 55%, 52%)
+Very dark grayish blue: hsl(217, 19%, 35%)
+Very dark blackish blue: hsl(219, 29%, 14%)
+White: hsl(0, 0%, 100%)
+
+### Neutral
+
+Light gray: hsl(0, 0%, 81%)
+Light grayish blue: hsl(210, 46%, 95%)
+
+*/
+.testimonial-card__header {
+  display: flex;
+  margin-bottom: 25px;
+  position: relative;
+}
+.testimonial-card__header .testimonial-card__info .testimonial-card__name {
+  font-weight: 500;
+  color: hsl(0, 0%, 100%);
+}
+.testimonial-card__header .testimonial-card__info .testimonial-card__status {
+  color: hsl(210, 46%, 95%);
+}
+.testimonial-card__avatar {
+  border-radius: 100%;
+  width: 32px;
+  height: 32px;
+}
+.testimonial-card:nth-child(3) .testimonial-card__header .testimonial-card__info .testimonial-card__name,
+.testimonial-card:nth-child(5) .testimonial-card__header .testimonial-card__info .testimonial-card__name {
+  color: hsl(217, 19%, 35%);
+}
+.testimonial-card:nth-child(3) .testimonial-card__header .testimonial-card__info .testimonial-card__status,
+.testimonial-card:nth-child(5) .testimonial-card__header .testimonial-card__info .testimonial-card__status {
+  color: hsl(217, 19%, 35%);
+}
+.testimonial-card:nth-child(1) .testimonial-card__header .testimonial-card__avatar,
+.testimonial-card:nth-child(3) .testimonial-card__header .testimonial-card__avatar {
+  border: 3px solid hsl(263, 83%, 70%);
+}
+.testimonial-card__quote {
+  font-size: 19px;
+  font-weight: 500;
+  color: hsl(0, 0%, 100%);
+  position: relative;
+}
+.testimonial-card__details {
+  width: 87%;
+  font-weight: 100;
+  margin-top: 25px;
+  color: hsl(210, 46%, 95%);
+}
+.testimonial-card:nth-child(1) .testimonial-card__quote {
+  width: 89.45%;
+}
+.testimonial-card:nth-child(1) .testimonial-card__details {
+  line-height: 17px;
+}
+.testimonial-card:nth-child(2) .testimonial-card__quote {
+  width: 89.45%;
+}
+.testimonial-card:nth-child(2) .testimonial-card__details {
+  line-height: 17px;
+  width: 91.18%;
+}
+.testimonial-card:nth-child(3) .testimonial-card__quote {
+  color: hsl(217, 19%, 35%);
+  width: 72.72%;
+}
+.testimonial-card:nth-child(3) .testimonial-card__details {
+  color: hsl(217, 19%, 35%);
+  font-weight: 400;
+}
+.testimonial-card:nth-child(4) .testimonial-card__quote {
+  width: 88.27%;
+}
+.testimonial-card:nth-child(4) .testimonial-card__details {
+  width: 90.9%;
+}
+.testimonial-card:nth-child(5) .testimonial-card__quote {
+  color: hsl(217, 19%, 35%);
+}
+.testimonial-card:nth-child(5) .testimonial-card__details {
+  color: hsl(217, 19%, 35%);
+  font-weight: 400;
+  width: 93.45%;
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlowsemicondensed/v15/wlpjgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRXfbLLIEs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlowsemicondensed/v15/wlpkgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRXfbJnAWsg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlowsemicondensed/v15/wlpkgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRXfbIDAmsg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlowsemicondensed/v15/wlphgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRXfYqv.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlowsemicondensed/v15/wlpkgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRXfbJbA2sg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlowsemicondensed/v15/wlpkgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRXfbJ3BGsg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlowsemicondensed/v15/wlpkgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRXfbITBWsg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlowsemicondensed/v15/wlpkgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRXfbIPBmsg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlowsemicondensed/v15/wlpkgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRXfbIrB2sg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlowsemicondensed/v15/wlphgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRfG4qv.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlowsemicondensed/v15/wlpigxjLBV1hqnzfr-F8sEYMB0Yybp0mudRft6uPAA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlowsemicondensed/v15/wlpigxjLBV1hqnzfr-F8sEYMB0Yybp0mudRf06iPAA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlowsemicondensed/v15/wlpvgxjLBV1hqnzfr-F8sEYMB0Yybp0mudRnfw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlowsemicondensed/v15/wlpigxjLBV1hqnzfr-F8sEYMB0Yybp0mudRfi6mPAA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlowsemicondensed/v15/wlpigxjLBV1hqnzfr-F8sEYMB0Yybp0mudRfp66PAA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlowsemicondensed/v15/wlpigxjLBV1hqnzfr-F8sEYMB0Yybp0mudRfw6-PAA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlowsemicondensed/v15/wlpigxjLBV1hqnzfr-F8sEYMB0Yybp0mudRf36yPAA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlowsemicondensed/v15/wlpigxjLBV1hqnzfr-F8sEYMB0Yybp0mudRf-62PAA.ttf) format('truetype');
+}
+body {
+  font-size: 13px;
+  background-color: hsl(210, 46%, 95%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+.container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.testimonial-card__accesories {
+  position: relative;
+}
+.testimonial-card__quotation {
+  position: absolute;
+  z-index: 0;
+  right: 0;
+  top: -20px;
+}
+.testimonial-card {
+  width: 327px;
+  border-radius: 15px;
+  padding: 21px 21px 21px 31px;
+}
+.testimonial-card img {
+  margin-right: 15px;
+}
+.testimonial-card:nth-child(1) {
+  background-color: hsl(263, 55%, 52%);
+  height: 450px;
+}
+.testimonial-card:nth-child(2) {
+  background-color: hsl(217, 19%, 35%);
+  height: 240px;
+}
+.testimonial-card:nth-child(3) {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(219, 29%, 14%);
+  height: 240px;
+}
+.testimonial-card:nth-child(4) {
+  background-color: hsl(219, 29%, 14%);
+  color: hsl(0, 0%, 100%);
+  height: 380px;
+}
+.testimonial-card:nth-child(5) {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(219, 29%, 14%);
+  height: 436px;
+}
