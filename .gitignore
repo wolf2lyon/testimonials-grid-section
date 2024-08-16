@@ -17,3 +17,4 @@
 .prettierignore
 /public/index.html
 /public/style.css
+node_modules/
